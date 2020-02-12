@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 900px;
+    margin: auto;
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+.toys-grid{
+    padding-bottom: 30px;
+}
+.toys-grid table{
+    width: 100%;
+    background-color: cadetblue;
+}
+.toys-grid table td{
+    background-color: #fff;
+}
+#btnAddAction{
+    padding: 6px 20px;
+    border: cadetblue 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #000;
+}
+.header{
+    background-color: #f4f4f4;
+    height: 200px;
+}
+.header h1{
+    color: #000;
+    text-transform: uppercase;
+}
+.header li{
+   display: inline-block;
+   padding-left: 29px;
+   text-transform: capitalize;
+}
+.header li a{
+    color:#000;
+    text-transform: capitalize;
+    text-decoration: none;
+ }
+ #frmAdd{
+     padding: 20px 20px 20px 20px;
+     background-color: cadetblue;
+     border-radius: 4px;
+ }
+
+ #frmAdd div{
+   padding-bottom: 15px;
+}
+#frmAdd label{
+    padding-right: 5px;
+ }
+ #btnSubmit{
+    padding: 8px;
+    border-radius: 3px;
+    border: cadetblue 1px solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    cursor: pointer;
+ }
+ .demoInputBox{
+    padding: 8px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: cadetblue 1px solid;
+ }
+ 
+
